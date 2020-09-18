@@ -1,0 +1,61 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color:rgb(167, 164, 164);
+}
+/* utility class */
+.container{
+    width:80%;
+    margin:0px auto;
+    padding-top:10px;
+
+}
+nav{
+    background-color:black;
+    height:50px;
+}
+nav ul{
+    list-style:none;
+
+}
+nav ul li{
+    float:left;
+    
+}
+nav ul li a{
+    display:block;
+    padding:11px 20px;
+    font-size:22px;
+    text-decoration:none;
+    color:white;
+}
+nav ul li a:hover{
+    background-color:rgb(63, 61, 61);
+}
+
+/* section */
+section{
+    min-height:600px;
+}
+section ul{
+    list-style:none;
+    
+    width:90%;
+    margin:15px auto;
+
+}
+section ul li {
+    margin:10px;
+    float:left;
+    
+}
+/* footer */
+footer{
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:10px 0px;
+    font-size:22px;
+}
